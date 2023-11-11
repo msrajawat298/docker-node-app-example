@@ -1,0 +1,10 @@
+version: '3'
+services:
+  node-app:
+    image: node:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./project:/usr/src/app
+    working_dir: /usr/src/app
+    command: /bin/sh -c "npm i && node app.js && tail -f /dev/null"

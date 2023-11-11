@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+
+# Docker
+.docker/
+docker-compose.override.yml
+.dockerignore
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# VSCode
+.vscode/
+
+# Others
+.DS_Store
+Thumbs.db
